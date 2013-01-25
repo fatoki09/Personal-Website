@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link href = "stylesheets/style1.css" rel = "stylesheet" type = "text/css">
+  <title>Ramon Flores's Personal Website</title>
+  <link rel="stylesheet" href="stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+  <script src="javascripts/modernizr.foundation.js"></script>
+</head>
+
+<body>
+    
+<!-- Header and Nav -->
+  
+  <div class="row">
+    <div class="three columns">
+      <img src = "images/logo.png">
+    </div>
+    <div class="nine columns">
+      <ul class="nav-bar right">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- End Header and Nav -->
+
+  <!-- Begin Content -->
+     <div class = "panel">
+      <div class = "row">
+        <div class = "twelve columns">
+          <h5>A closer look at some of my independent and school projects.</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class = "row">
+      <div class = "twelve columns">
+          <h4 class = "heading">Find Doc</h4>
+          <p class = "junction">Created on December 2012 using JQuery Mobile, PHP, and MySQL.</p><br>
+          <p class = "junction">Find Doc is a web app created for Stanford's CS 147 introduction to HCI class. The app helps users find the best doctor for them based on their symptoms, location, and overall ratings. This web application was built by Vivek Jain, Cory Weinstein, and myself using a JQuery mobile framework along with some PHP and MySQL. Over this 10-week course, I truly developed a design mindset. I learned about needfinding, rapid prototyping, and user-testing early on. I also had the opportunity to dive into a mobile web development framework and pick up some back-end skills along the way. I was even able to present the app to a panel of judges including Instagram co-founder Mike Krieger at the end of the year. Talk about an awesome experience!<a href = "http://www.stanford.edu/~vsjain/cgi-bin/doc" target = "_blank"> You can find it here.</a></p>
+      </div>
+      <div class = "twelve columns">
+          <img src = "images/findDoc1.png" class = "demo">
+          <img src = "images/findDoc2.png" class = "demo">
+          <img src = "images/findDoc3.png" class = "demo">
+      </div>
+      <hr>
+
+      <div class = "twelve columns">
+        <h4 class = "heading">Heap Allocator</h4>
+        <p class = "junction">Created on December 2012 using C.</p><br>
+        <p class = "junction"> My heap allocator manages the heap and implements the dynamic allocation functions malloc, realloc, and free. The allocator grabs a large memory segment using the low-level OS memory routines and parcels out this segment to service requests for allocation, reallocation, and deallocation. In addition, it manages the heap segment, tracks the available/in-use space, and updates the heap data structures in response to requests. The allocator runs at approximately 80% utilization and 50% throughput compared to the standard libc allocator. You can email me <a href = "mailto:rrflores@stanford.edu" target = "_blank">here</a> if you'd like to see the code.</p>
+
+        <p class = "junction">Holly Jachowski and I created this allocator as the final assignment for our CS 107 class. The assignment probably took nearly 40 hours and was truly a learning experience. There are several approaches to designing an allocator like this one and we had to carefully assess all of the trade-offs and advantages of switching between different approaches. We ultimately stuck with a buckets and doubly-linked list approach where we separated blocks of memory by size and stored those blocks in a doubly-linked list. We encountered several segfaults and other bugs and had a tough time debugging due to the inability to use gdb and valgrind. However, through perseverance and SEVERAL sleepless nights, we finally finished a project we can truly be proud of.</p>
+      </div>
+      <hr>
+
+      <div class = "twelve columns">
+        <h4 class = "heading">Rose Bowl Infographic</h4>
+        <p class = "junction">Created on December 2012</p><br>
+        <p class = "junction">I've been an avid sports and college football fan my entire life, and I thought it would be cool to get involved in a sports related project. I ended up working with my friend, Lindsey Txakeeyang and her startup, <a href = "http://dnewsframe.com/" target = "_blank">d.Newsframe.</a>&nbspI worked with her and Tim Hsia on ideas for creating a Stanford football infographic and how we were going to present the information. I researched several team statistics including graduation rates, offensive and defensive split stats, and trends over the years. Below is the final product, created by Lindsey's friend Jessica. If you'd like to get involved, contact her <a href = "mailto:lindsey@dnewsframe.com" target = "_blank">here.</a> Enjoy!</p>
+      </div>
+      <div class = "twelve columns">
+        <img src = "images/infographic.jpg" style = "width: 100%">
+      </div>
+
+    </div>  
+  <!-- End Content -->
+
+  <!-- Footer -->
+  
+  <footer class="row">
+    <div class="twelve columns">
+      <hr />
+      <div class="row">
+        <div class="six columns">
+          <p class = "junction" class = "junction"> &copy; Copyright Ramon Miguel Flores 2012 </p>
+        </div>
+        <div class="six columns">
+          <ul class="link-list right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </footer>
+    
+  <script src="javascripts/jquery.js"></script>
+  <script src="javascripts/foundation.min.js"></script>
+  <script src="javascripts/app.js"></script>
+
+   <!-- Google Analytics -->
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36373074-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  
+</body>
+</html>

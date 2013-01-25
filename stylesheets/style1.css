@@ -1,0 +1,46 @@
+/* Stylesheet for Ramon Flores's personal website */
+
+@font-face {
+    font-family: 'junction';
+    src: url('junctionFont/Junction-webfont.eot') format('eot'),
+         url('junctionFont/Junction-webfont.woff') format('woff'),
+         url('junctionFont/Junction-webfont.ttf') format('truetype'),
+         url('junctionFont/Junction-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.heading { font-family: 'Open Sans', sans-serif; color: #CC99FF; }
+
+.junction { font-family: junction, sans-serif; }
+
+.lacuna { font-family: lacuna, sans-serif; }
+
+.lobster { font-family: 'Buda', sans-serif; } 
+
+.right { float: right; margin-left: 10px; } 
+
+.left { float: left; margin-right: 10px; }
+
+.absolute { position: absolute; }
+
+.demo { width: 33%; }
+
+.spaced { line-height: 1.75; }
+
+/* Social Media icon positioning */
+
+#mail { left: 30%; top: 15%; }
+#linkedin { left: 40%; top: 25%; }
+#facebook { left: 50%; top: 35%; }
+#github { left: 60%; top: 45%; }
+#quora { left: 50%; top: 55%; }
+#foursquare { left: 40%; top: 65%; }
+#twitter { left: 30%; top: 75%; }
+#instagram { left: 20%; top: 65%; }
+#yelp { left: 10%; top: 55%; }
+#youtube { left: 0%; top: 45%; }
+#googleplus { left: 10%; top: 35%; } 
+#stackoverflow { left: 20%; top: 25%; }
+#links { left: 23%; top: 45%; }
+#notification { left: 23%; top: 55%; }
